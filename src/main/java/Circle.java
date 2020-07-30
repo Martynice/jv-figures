@@ -19,7 +19,7 @@ public class Circle extends Figure {
 
     @Override
     public String draw() {
-        return "Figure: triangle, area: " + getArea() + ", radius:"
+        return "Figure: circle, area: " + getArea() + ", radius:"
                 + getRadius() + ", color:" + getColor();
     }
 

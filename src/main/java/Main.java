@@ -20,7 +20,7 @@ public class Main {
             figure.draw();
         }
     }
-    public static Color randomColor() {
+    private static Color randomColor() {
         int random = (int) Math.random() * 3;
         switch (random) {
             case 1:
